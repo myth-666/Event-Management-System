@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+}
+.App_container{
+  display: flex;
+  flex-direction: column;
+}
+.App_header{
+  width: 100%;
+  background-image: linear-gradient(to right, black , rgb(116, 113, 113));
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  position: fixed;
+}
+.left{
+  width: 45%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: row;
+}
+.left img{
+ width: 20%;
+}
+.left_text{
+  margin-left: 10px; 
+  padding-top: 32px;
+  justify-content: center;
+}
+.right{
+  width: 45%;
+  text-align: right;
+  padding-top: 32px;
+  padding-right: 5%;
+}
+.right label:hover{
+  font-size: larger;
+}
+.App_middle{
+  background-image: linear-gradient(black, rgb(133, 4, 133), rgb(6, 6, 65));
+  display: flex;
+  flex-direction: row;
+  padding-top: 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.middle_left{
+ 
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding-left: 5%;
+}
+.label1{
+  font-size: large;
+  color: rgb(5, 184, 255);
+  font-weight: bold;
+}
+.label2{
+  color: white;
+  font-size: 3rem;
+  margin-top: 20px;
+}
+.label3{
+  margin-top: 20px;
+  color: white;
+  font-size:2rem;
+}
+.Signup{
+ 
+  text-align: center;
+  margin-top: 10%; 
+}
+.Signup button{
+  background-color: red;
+  padding: 20px 80px;
+  font-size: large;
+  color: white;
+  border: none;
+  outline: none;
+}
+.Signup button:hover{
+  font-size: larger;
+  background-color: rgb(206, 36, 36);
+}
+.App_footer{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-image: linear-gradient(rgb(41, 41, 141) rgb(117, 3, 209)); */
+  background-image: linear-gradient(rgb(6, 6, 65),black);
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: space-between;
+}
+.col1{
+  background-image: linear-gradient(to right, rgb(121, 9, 121) , black);
+  width: 28%;
+  padding: 20px;
+  border-radius: 20px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.col2{
+  background-image: linear-gradient(to right, rgb(8, 8, 99) , black);
+  width: 28%;
+  padding: 20px;
+  border-radius: 20px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.col3{
+  background-image: linear-gradient(to right, rgb(128, 5, 5) , black);
+  width: 28%;
+  padding: 20px;
+  border-radius: 20px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.event_text1{
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
+.event_text2{
+  color: white;
+}
